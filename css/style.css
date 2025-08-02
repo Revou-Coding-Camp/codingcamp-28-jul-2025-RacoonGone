@@ -1,0 +1,99 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(120deg, #fde68a 0%, #f59e42 100%);
+}
+
+.main-header {
+  box-shadow: 0 4px 16px rgba(245, 158, 66, 0.15);
+}
+.logo {
+  width: 64px;
+  height: 64px;
+  min-width: 64px;
+  min-height: 64px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 2px 8px rgba(245, 158, 66, 0.15);
+}
+
+@media (max-width: 480px) {
+  .logo {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    min-height: 48px;
+  }
+}
+
+header.main-header {
+  background: #fffbe6;
+  box-shadow: 0 2px 8px rgba(245, 158, 66, 0.08);
+}
+
+nav a {
+  background: #fde68a;
+  color: #7c4700;
+  transition: background 0.2s;
+}
+nav a:hover {
+  background: #f59e42;
+  color: #fff;
+}
+
+button {
+  background: #f59e42 !important;
+  color: #fff !important;
+  border: none;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #fbbf24 !important;
+  color: #7c4700 !important;
+}
+
+.banner-img {
+  height: 220px;
+  background-image: url(https://rspp.co.id/uploads/img_post/img_120620241718176150K552C.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 16px rgba(245, 158, 66, 0.12);
+}
+
+.banner-img2 {
+  height: 220px;
+  background-image: url(http://www.coffeescience.org/wp-content/uploads/2016/10/Coffee-Machine.jpeg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 16px rgba(245, 158, 66, 0.12);
+}
+
+.banner-img3 {
+  height: 220px;
+  background-image: url(https://i.pinimg.com/originals/73/9d/bf/739dbf3476b062ca3ff6023273bd29f3.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 16px rgba(245, 158, 66, 0.12);
+}
+
+.main-header { 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+}
+
+.main-header nav {
+    display: flex;
+    gap: 12px; 
+}
